@@ -24,6 +24,7 @@
               pkgs.zlib
               pkgs.libglvnd
               pkgs.glib
+              pkgs.iconv
             ];
             runtimeLibPath = "${nixLibPath}:/run/opengl-driver/lib:/run/opengl-driver-32/lib";
           in
